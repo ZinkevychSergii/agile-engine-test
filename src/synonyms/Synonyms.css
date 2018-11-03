@@ -1,0 +1,42 @@
+.synonyms {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.synonyms >  h4 {
+    margin: 0;
+    padding: 8px 14px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 5px 5px 0 0;
+}
+
+.synonyms > div.content, .synonyms > div.controlls {
+    padding: 7px 14px;
+}
+
+.synonyms > div.content > select {
+    width: 100%;
+    padding: 5px 35px 5px 5px;
+    border: 1px solid #ccc;
+    height: 34px;
+}
+
+
+.synonyms > div.controlls >button {
+    background-color: #ffa500; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 49%;
+    cursor: pointer;
+}
+
+.synonyms > div.controlls >button:first-child {
+    margin-right: 1%;
+}
+
